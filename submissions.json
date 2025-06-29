@@ -1,0 +1,136 @@
+[
+  {
+    "title": "Disco Duck",
+    "creator": "Brad",
+    "month": "2025-06",
+    "thumbnail": "images/discoduck.png",
+    "sketchUrl": "https://editor.p5js.org/fullsnackdevelopr/sketches/Uhcsvngpg"
+  },
+  {
+    "title": "Flash Ellipse Man",
+    "creator": "Masa",
+    "month": "2025-06",
+    "thumbnail": "images/ellipseman.png",
+    "sketchUrl": "https://editor.p5js.org/Otsuka_Masatoshi/sketches/5cowgfKQ1"
+  }, 
+  {
+    "title": "Dino Creature",
+    "creator": "Chris",
+    "month": "2025-06",
+    "thumbnail": "images/dino.png",
+    "sketchUrl": "https://cbednarski.com/p5.js/dino-creature/"
+  },
+  {
+    "title": "Moodeng",
+    "creator": "Steve",
+    "month": "2025-06",
+    "thumbnail": "images/moodeng.png",
+    "sketchUrl": "https://editor.p5js.org/stevehng/sketches/yv-quPD8i"
+  },
+  {
+    "title": "Psychedelic Elephant",
+    "creator": "George",
+    "month": "2025-06",
+    "thumbnail": "images/elephant.png",
+    "sketchUrl": "https://editor.p5js.org/shinyplanet/sketches/MdeO-nYtN"
+  },
+  {
+    "title": "Mischevious Orange",
+    "creator": "Adeoka",
+    "month": "2025-06",
+    "thumbnail": "images/orange.png",
+    "sketchUrl": "https://editor.p5js.org/dede95/sketches/kRh_tw-ip"
+  }, 
+  {
+    "title": "Butterfly",
+    "creator": "Sabine",
+    "month": "2025-06",
+    "thumbnail": "images/butterfly.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/JHepOAMtq"
+  },
+  {
+    "title": "Pixelated Bear",
+    "creator": "Lauren",
+    "month": "2025-06",
+    "thumbnail": "images/pixelatedbear.png",
+    "sketchUrl": "https://editor.p5js.org/Laurennnn/sketches/V_QUHrwuN"
+  },
+  {
+    "title": "Genie",
+    "creator": "Kukkik",
+    "month": "2025-06",
+    "thumbnail": "images/genie.png",
+    "sketchUrl": "https://editor.p5js.org/krichkorn/sketches/f6Yv0YGIh"
+  }, 
+  {
+    "title": "Illusion Man",
+    "creator": "Tim",
+    "month": "2025-06",
+    "thumbnail": "images/illusionman.png",
+    "sketchUrl": "https://editor.p5js.org/timcharlier6/sketches/hFwQLx9T-"
+  },
+  {
+    "title": "Star Power (ml5.js)",
+    "creator": "Chris",
+    "month": "2025-06",
+    "thumbnail": "images/starpower.png",
+    "sketchUrl": "https://cbednarski.com/p5.js/star-power/"
+  }, 
+  {
+    "title": "Sparkly Sphere (WEBGL)",
+    "creator": "Brad",
+    "month": "2025-06",
+    "thumbnail": "images/sparklysphere.png",
+    "sketchUrl": "https://editor.p5js.org/fullsnackdevelopr/sketches/Qx6rv-hwf"
+  },
+  {
+    "title": "Audio Reactive Optical Art",
+    "creator": "George",
+    "month": "2025-06",
+    "thumbnail": "images/musicopart.png",
+    "sketchUrl": "https://editor.p5js.org/shinyplanet/sketches/GPi9T_vcb"
+  },
+  {
+    "title": "Durian Man",
+    "creator": "Patt",
+    "month": "2025-06",
+    "thumbnail": "images/durian.png",
+    "sketchUrl": "https://editor.p5js.org/pattvira/sketches/xRI7qMnmw"
+  },
+  {
+    "title": "Interactive Flow Field",
+    "creator": "Chris",
+    "month": "2025-06",
+    "thumbnail": "images/flowfield.png",
+    "sketchUrl": "https://cbednarski.com/p5.js/flow-field/"
+  }, 
+  {
+    "title": "Q-Learning 💩",
+    "creator": "Kukkik",
+    "month": "2025-06",
+    "thumbnail": "images/qlearning.png",
+    "sketchUrl": "https://editor.p5js.org/krichkorn/sketches/HdcQgZ4HT"
+  }, 
+  {
+    "title": "Hand-tracking (ml5.js) Creatures",
+    "creator": "Masa",
+    "month": "2025-06",
+    "thumbnail": "images/handtrackingcreatures.png",
+    "sketchUrl": "https://editor.p5js.org/Otsuka_Masatoshi/sketches/-G5C07BaA"
+  },
+  {
+    "title": "Blob Game",
+    "creator": "Brad",
+    "month": "2025-06",
+    "thumbnail": "images/blobgame.png",
+    "sketchUrl": "https://editor.p5js.org/fullsnackdevelopr/sketches/DFgU8Dng-"
+  },
+  {
+    "title": "Flower Garden",
+    "creator": "Patt",
+    "month": "2025-06",
+    "thumbnail": "images/flower.png",
+    "sketchUrl": "https://editor.p5js.org/pattvira/sketches/TKzO0WVd0"
+  } 
+  
+]

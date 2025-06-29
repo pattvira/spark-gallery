@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Submit a Sketch</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 2rem;
+        max-width: 600px;
+        margin: auto;
+      }
+      input,
+      select,
+      textarea,
+      button {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+      }
+      pre {
+        background: #f4f4f4;
+        padding: 1rem;
+        border-radius: 6px;
+        overflow-x: auto;
+      }
+      #thumbnailPreview {
+        max-width: 100%;
+        max-height: 150px;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Submit Your Sketch</h1>
+    <form id="submission-form">
+      <label>Sketch Title</label>
+      <input type="text" id="title" required />
+
+      <label>Your Name</label>
+      <input type="text" id="creator" required />
+
+      <label>Month</label>
+      <select id="month">
+        <option value="2025-06">2025-06</option>
+        <option value="2025-07">2025-07</option>
+        <option value="2025-08">2025-08</option>
+      </select>
+
+      <label>Sketch URL (e.g. p5.js)</label>
+      <input type="url" id="sketchUrl" required />
+
+      <label>Upload Thumbnail Image (max 500KB)</label>
+      <input type="file" id="imageUpload" accept="image/*" required />
+      <img id="thumbnailPreview" style="display: none" />
+
+      <button type="submit">Generate JSON</button>
+    </form>
+
+    <script>
+      let base64Image = "";
+      const MAX_SIZE = 500 * 1024; // 500 KB
+
+      document
+        .getElementById("imageUpload")
+        .addEventListener("change", function (event) {
+          const file = event.target.files[0];
+          if (!file) return;
+
+          if (file.size > MAX_SIZE) {
+            alert("File is too large! Please choose an image under 500KB.");
+            event.target.value = "";
+            base64Image = "";
+            return;
+          }
+
+          const reader = new FileReader();
+          reader.onload = function (e) {
+            base64Image = e.target.result;
+            const preview = document.getElementById("thumbnailPreview");
+            preview.src = base64Image;
+            preview.style.display = "block";
+          };
+          reader.readAsDataURL(file);
+        });
+
+      const form = document.getElementById("submission-form");
+      const output = document.getElementById("output");
+      const downloadBtn = document.getElementById("downloadBtn");
+
+      let jsonText = "";
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        if (!base64Image) {
+          alert("Please upload a valid image under 500KB.");
+          return;
+        }
+
+        const data = {
+          title: document.getElementById("title").value.trim(),
+          creator: document.getElementById("creator").value.trim(),
+          month: document.getElementById("month").value,
+          thumbnail: base64Image,
+          sketchUrl: document.getElementById("sketchUrl").value.trim(),
+        };
+        jsonText = JSON.stringify(data, null, 2);
+        output.textContent = jsonText;
+      });
+
+      downloadBtn.addEventListener("click", function () {
+        if (!jsonText) return;
+
+        const canvas = document.getElementById("jsonCanvas");
+        const ctx = canvas.getContext("2d");
+        const lines = jsonText.split("\n");
+        const lineHeight = 24;
+        canvas.width = 700;
+        canvas.height = lines.length * lineHeight + 40;
+
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.font = "16px monospace";
+        ctx.fillStyle = "#000000";
+
+        lines.forEach((line, i) => {
+          ctx.fillText(line, 20, 30 + i * lineHeight);
+        });
+
+        const link = document.createElement("a");
+        link.download = "submission.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+header, footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffeaa7;
+}
+h1 {
+  margin: 0.5rem 0;
+}
+main {
+  padding: 1rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.gallery-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  text-align: center;
+}
+.gallery-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.gallery-card h3 {
+  margin: 0.5rem 0 0.25rem;
+}
+.gallery-card a {
+  text-decoration: none;
+  color: #0984e3;
+}
