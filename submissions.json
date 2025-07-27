@@ -131,6 +131,167 @@
     "month": "2025-06",
     "thumbnail": "images/flower.png",
     "sketchUrl": "https://editor.p5js.org/pattvira/sketches/TKzO0WVd0"
-  } 
+  },
+  {
+    "title": "Flow Fields",
+    "creator": "Brad",
+    "month": "2025-07",
+    "thumbnail": "images/07brad.png",
+    "sketchUrl": "https://editor.p5js.org/fullsnackdevelopr/sketches/YBQHVYjkQ"
+  },
+  {
+    "title": "The Waiting Room",
+    "creator": "Tim",
+    "month": "2025-07",
+    "thumbnail": "images/07tim.png",
+    "sketchUrl": "https://editor.p5js.org/timcharlier6/sketches/1fgC6vMyF"
+  }, 
+  {
+    "title": "Random Walk",
+    "creator": "Masatoshi",
+    "month": "2025-07",
+    "thumbnail": "images/07masa_1.png",
+    "sketchUrl": "https://editor.p5js.org/Otsuka_Masatoshi/sketches/g7yJKrJob"
+  },
+  {
+    "title": "Text Sign",
+    "creator": "Masatoshi",
+    "month": "2025-07",
+    "thumbnail": "images/07masa_2.png",
+    "sketchUrl": "https://editor.p5js.org/Otsuka_Masatoshi/sketches/Z-PRY0AkR"
+  },
+  {
+    "title": "Follow Field",
+    "creator": "Masatoshi",
+    "month": "2025-07",
+    "thumbnail": "images/07masa_3.png",
+    "sketchUrl": "https://editor.p5js.org/Otsuka_Masatoshi/sketches/Bl5ktauJ_"
+  },
+  {
+    "title": "Chidori Tsunagi",
+    "creator": "Masatoshi",
+    "month": "2025-07",
+    "thumbnail": "images/07masa_4.png",
+    "sketchUrl": "https://editor.p5js.org/Otsuka_Masatoshi/sketches/OSkqM7414"
+  },
+  {
+    "title": "GPS",
+    "creator": "Chris",
+    "month": "2025-07",
+    "thumbnail": "images/07chris_1.png",
+    "sketchUrl": "https://cbednarski.com/p5.js/gps/"
+  },
+  {
+    "title": "Flow Color",
+    "creator": "Chris",
+    "month": "2025-07",
+    "thumbnail": "images/07chris_2.png",
+    "sketchUrl": "https://cbednarski.com/p5.js/flow-color/"
+  },
+  {
+    "title": "GPS Map",
+    "creator": "Chris",
+    "month": "2025-07",
+    "thumbnail": "images/07chris_3.png",
+    "sketchUrl": "https://cbednarski.com/p5.js/gps-map/"
+  },
+  {
+    "title": "River",
+    "creator": "Chris",
+    "month": "2025-07",
+    "thumbnail": "images/07chris_4.png",
+    "sketchUrl": "https://cbednarski.com/p5.js/river/"
+  },
+  {
+    "title": "Bugs Particles",
+    "creator": "Kukkik",
+    "month": "2025-07",
+    "thumbnail": "images/07kukkik.png",
+    "sketchUrl": "https://pyscript.com/@bachkukkik/morning-bread/latest?files=index.html"
+  },
+  {
+    "title": "Canny Edge to MIDI Converter",
+    "creator": "Kukkik",
+    "month": "2025-07",
+    "thumbnail": "images/07kukkik_2.png",
+    "sketchUrl": "https://pyscript.com/@bachkukkik/camera-access-example-copy/latest?files=main.py,index.html,pyscript.toml"
+  },
+  {
+    "title": "SparkJuli #1",
+    "creator": "Sabine",
+    "month": "2025-07",
+    "thumbnail": "images/07sabine_1.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/2tLjJX68d"
+  },
+  {
+    "title": "SparkJuli #2",
+    "creator": "Sabine",
+    "month": "2025-07",
+    "thumbnail": "images/07sabine_2.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/Dk8Ef3z7f"
+  },
+  {
+    "title": "SparkJuli #3",
+    "creator": "Sabine",
+    "month": "2025-07",
+    "thumbnail": "images/07sabine_3.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/mGDQpOYv6"
+  },
+  {
+    "title": "SparkJuli #4",
+    "creator": "Sabine",
+    "month": "2025-07",
+    "thumbnail": "images/07sabine_4.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/TU7JupRr0"
+  },
+  {
+    "title": "SparkJuli #5",
+    "creator": "Sabine",
+    "month": "2025-07",
+    "thumbnail": "images/07sabine_5.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/4EzJHk7NV"
+  },
+  {
+    "title": "SparkJuli #6",
+    "creator": "Sabine",
+    "month": "2025-07",
+    "thumbnail": "images/07sabine_6.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/CCNR5T4j4"
+  },
+  {
+    "title": "SparkJuli #7",
+    "creator": "Sabine",
+    "month": "2025-07",
+    "thumbnail": "images/07sabine_7.png",
+    "sketchUrl": "https://editor.p5js.org/sapperlot/sketches/ZfEuJRJwm"
+  },
+  {
+    "title": "Interactive Visualizer",
+    "creator": "Steve",
+    "month": "2025-07",
+    "thumbnail": "images/07steve.png",
+    "sketchUrl": "https://editor.p5js.org/stevehng/full/IbUlYS12Y"
+  },
+  {
+    "title": "UI Test#1: Tweakpane",
+    "creator": "George",
+    "month": "2025-07",
+    "thumbnail": "images/07george_1.png",
+    "sketchUrl": "https://editor.p5js.org/shinyplanet/sketches/qWlcydvDK"
+  },
+  {
+    "title": "UI Test#2: datGUI",
+    "creator": "George",
+    "month": "2025-07",
+    "thumbnail": "images/07george_2.png",
+    "sketchUrl": "https://editor.p5js.org/shinyplanet/sketches/5bg5ZhzNt"
+  },
+  {
+    "title": "UI Test#2: CSS",
+    "creator": "George",
+    "month": "2025-07",
+    "thumbnail": "images/07george_3.png",
+    "sketchUrl": "https://editor.p5js.org/shinyplanet/sketches/Pb9wVjhI9"
+  }
   
 ]
